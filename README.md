@@ -41,13 +41,15 @@ Instale todas as dependências necessárias.
 Configure os arquivos de ambiente (.env) conforme necessário para conexão com bancos de dados e serviços externos.
 
 Executar os Serviços:
-Siga as instruções específicas de cada funcionalidade no diretório correspondente.
-Utilize Docker para compilar e rodar os containers quando indicado.
+ Siga as instruções específicas de cada funcionalidade no diretório correspondente.
+ Utilize Docker para compilar e rodar os containers quando indicado.
 
 Testar as Funcionalidades:
+
 Verifique cada funcionalidade individualmente, conforme descrições nos diretórios de cada componente do projeto.
 
 Estrutura do Projeto:
+
 /csv-handler: Lógica para manipulação de arquivos CSV.
 /json-handler: Lógica para conversão para JSON.
 /api-consumer: Scripts para consumir APIs externas.
@@ -58,6 +60,7 @@ Estrutura do Projeto:
 
 
 Faça um fork do repositório.
+
 Crie um branch para sua feature (git checkout -b feature/nova-feature).
 Faça commit das suas alterações (git commit -m 'Adiciona nova funcionalidade').
 Faça push para o branch (git push origin feature/nova-feature).
