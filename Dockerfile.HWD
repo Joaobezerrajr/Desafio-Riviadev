@@ -1,0 +1,7 @@
+FROM node:18
+
+WORKDIR /usr/src/app
+
+COPY 6_helloWorldDocker.js .
+
+CMD ["node", "6_helloWorldDocker.js"]
